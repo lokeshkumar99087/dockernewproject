@@ -3,27 +3,27 @@ services:
   bills:
     image: lokeshkumar9908/billspaytm:latest
     ports:
-      - "91:80"
+      - "95:80"
     deploy:
       replicas: 3
 
   buses:
     image: lokeshkumae9908/busespaytm:latest
     ports:
-      - "92:80"
+      - "96:80"
     deploy:
       replicas: 3
 
   tickets:
     image: lokeshkumar9908/ticketspaytm:latest
     ports:
-      - "93:80"
+      - "97:80"
     deploy:
       replicas: 3
 
   movies:
     image: lokeshkumar9908/moviespaytm:latest
     ports:
-      - "94:80"
+      - "98:80"
     deploy:
       replicas: 3
