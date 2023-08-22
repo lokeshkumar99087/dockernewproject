@@ -1,28 +1,28 @@
 version: '3'
 services:
   bills:
-    image: lokeshkumar9908/billspaytm:latest
+    image: lokeshkumar9908/tigergoogle:latest
     ports:
       - "81:80"
     deploy:
       replicas: 3
 
   buses:
-    image: lokeshkumae9908/busespaytm:latest
+    image: lokeshkumar9908/liongoogle:latest
     ports:
       - "82:80"
     deploy:
       replicas: 3
 
   tickets:
-    image: lokeshkumar9908/ticketspaytm:latest
+    image: lokeshkumar9908/ratgoogle:latest
     ports:
       - "83:80"
     deploy:
       replicas: 3
 
   movies:
-    image: lokeshkumar9908/moviespaytm:latest
+    image: lokeshkumar9908/rabbitgoogle:latest
     ports:
       - "84:80"
     deploy:
